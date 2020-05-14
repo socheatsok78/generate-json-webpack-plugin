@@ -5,5 +5,8 @@
   "main": "lib/index.js",
   "repository": "git@github.com:pp-spaces/generate-json-webpack-plugin.git",
   "author": "Socheat Sok <socheatsok78@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "publish": "npm publish --access public"
+  }
 }
