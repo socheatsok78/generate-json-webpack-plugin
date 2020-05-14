@@ -80,3 +80,6 @@ That will generate a file that looks like this:
 | source   | string | \[Optional\]  | ath to an existing JSON file to extend                                  |
 | value    | object | {}            | Object to output or the properties you wish to modify                   |
 | space    | number | \[Optional\]  | Insert white space into the output JSON string for readability purposes |
+
+## License
+[MIT](LICENSE)
