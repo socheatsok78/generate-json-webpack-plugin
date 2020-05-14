@@ -1,12 +1,12 @@
 {
   "name": "@pp-spaces/generate-json-webpack-plugin",
   "description": "Webpack plugin to generate a JSON file",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "repository": "git@github.com:pp-spaces/generate-json-webpack-plugin.git",
   "author": "Socheat Sok <socheatsok78@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "publish": "npm publish --access public"
+    "release": "npm publish --access public"
   }
 }
