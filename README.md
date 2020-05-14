@@ -5,7 +5,7 @@ Webpack plugin to generate a JSON file
 To begin, you'll need to install `generate-json-webpack-plugin`:
 
 ```sh
-$ npm install enerate-json-webpack-plugin --save-dev
+$ npm install generate-json-webpack-plugin --save-dev
 ```
 
 Then add the plugin to your webpack config. For example:
