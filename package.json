@@ -1,5 +1,5 @@
 {
-  "name": "generate-json-webpack-plugin",
+  "name": "@pp-spaces/generate-json-webpack-plugin",
   "description": "Webpack plugin to generate a JSON file",
   "version": "1.0.0",
   "main": "lib/index.js",
