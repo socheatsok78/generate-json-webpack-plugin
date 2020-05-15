@@ -7,6 +7,8 @@
   "author": "Socheat Sok <socheatsok78@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "release": "npm publish --access public"
+    "release": "npm publish --access public",
+    "test": "cd tests && npm install && npm run build --if-present",
+    "posttest": "rm -rf tests/node_modules; rm -rf tests/dist"
   }
 }
