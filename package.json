@@ -7,8 +7,12 @@
   "author": "Socheat Sok <socheatsok78@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "prerelease": "rm -rf tests/node_modules; rm -rf tests/dist",
     "release": "npm publish --access public",
-    "test": "cd tests && npm install && npm run build --if-present",
-    "posttest": "rm -rf tests/node_modules; rm -rf tests/dist"
+    "pretest": "cd tests && npm install && npm run build --if-present",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
