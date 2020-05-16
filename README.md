@@ -1,7 +1,7 @@
 # generate-json-webpack-plugin
 Webpack plugin to generate a JSON file
 
-[![Webpack Build Test](https://github.com/socheatsok78/generate-json-webpack-plugin/workflows/Webpack%20Build%20Test/badge.svg)](https://github.com/socheatsok78/generate-json-webpack-plugin/actions?query=workflow%3A%22Webpack+Build+Test%22)
+[![Webpack Build Test][github-action-badge]][github-action-url] [![NPM][npm-badge]][npm-url]
 
 ## Getting Started
 To begin, you'll need to install `generate-json-webpack-plugin`:
@@ -88,3 +88,10 @@ See [`tests/webpack.config.js`](tests/webpack.config.js) for more.
 
 ## License
 [MIT](LICENSE)
+
+<!-- Variables -->
+[github-action-badge]: https://github.com/socheatsok78/generate-json-webpack-plugin/workflows/Webpack%20Build%20Test/badge.svg
+[github-action-url]: https://github.com/socheatsok78/generate-json-webpack-plugin/actions?query=workflow%3A%22Webpack+Build+Test%22
+
+[npm-url]: https://www.npmjs.com/package/@pp-spaces/generate-json-webpack-plugin
+[npm-badge]: https://badgen.net/npm/v/@pp-spaces/generate-json-webpack-plugin
