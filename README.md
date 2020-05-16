@@ -74,6 +74,7 @@ That will generate a file that looks like this:
   "theme_color": "#3367D6"
 }
 ```
+
 ### Options
 
 | Name     | Type   | Default       | Description                                                             |
@@ -82,6 +83,8 @@ That will generate a file that looks like this:
 | source   | string | \[Optional\]  | Path to an existing JS/JSON file to extend                              |
 | value    | object | {}            | Object to output or the properties you wish to modify                   |
 | space    | number | \[Optional\]  | Insert white space into the output JSON string for readability purposes |
+
+See [`tests/webpack.config.js`](tests/webpack.config.js) for more.
 
 ## License
 [MIT](LICENSE)
