@@ -79,7 +79,7 @@ That will generate a file that looks like this:
 | Name     | Type   | Default       | Description                                                             |
 | -------- | ------ | ------------- | ----------------                                                        |
 | filename | string | manifest.json | Output file name                                                        |
-| source   | string | \[Optional\]  | ath to an existing JSON file to extend                                  |
+| source   | string | \[Optional\]  | Path to an existing JS/JSON file to extend                              |
 | value    | object | {}            | Object to output or the properties you wish to modify                   |
 | space    | number | \[Optional\]  | Insert white space into the output JSON string for readability purposes |
 
