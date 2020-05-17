@@ -6,6 +6,11 @@
   "repository": "git@github.com:pp-spaces/generate-json-webpack-plugin.git",
   "author": "Socheat Sok <socheatsok78@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "generate-json"
+  ],
   "scripts": {
     "prerelease": "rm -rf tests/node_modules; rm -rf tests/dist",
     "release": "npm publish --access public",
