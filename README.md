@@ -1,7 +1,9 @@
 # generate-json-webpack-plugin
 Webpack plugin to generate a JSON file
 
-[![Webpack Build Test][github-action-badge]][github-action-url] [![NPM][npm-badge]][npm-url]
+[![NPM Download][npm-dl-badge]][npm-url]
+[![NPM][npm-badge]][npm-url]
+[![Webpack Build Test][github-action-badge]][github-action-url]
 
 ## Getting Started
 To begin, you'll need to install `generate-json-webpack-plugin`:
@@ -95,3 +97,4 @@ See [`tests/webpack.config.js`](tests/webpack.config.js) for more.
 
 [npm-url]: https://www.npmjs.com/package/@pp-spaces/generate-json-webpack-plugin
 [npm-badge]: https://badgen.net/npm/v/@pp-spaces/generate-json-webpack-plugin
+[npm-dl-badge]: https://img.shields.io/npm/dm/@pp-spaces/generate-json-webpack-plugin
